@@ -93,7 +93,7 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
     lastUpdated: '上次更新', // 开启更新时间，并配置前缀文字   string | boolean (取值为git提交时间)
     docsDir: 'docs', // 编辑的文件夹
     // docsBranch: 'master', // 编辑的文件所在分支，默认master。 注意：如果你的分支是main则修改为main
-    editLinks: true, // 启用编辑
+    editLinks: false, // 启用编辑
     editLinkText: '编辑',
 
     //*** 以下是Vdoing主题相关配置，文档：https://doc.神流歌奈.com/pages/a20ce8/ ***//
@@ -112,7 +112,7 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
     // ], // body背景大图，默认无。 单张图片 String | 多张图片 Array, 多张图片时隔bodyBgImgInterval切换一张。
     // bodyBgImgOpacity: 0.5, // body背景图透明度，选值 0.1~1.0, 默认0.5
     // bodyBgImgInterval: 15, // body多张背景图时的切换间隔, 默认15，单位s
-    // titleBadge: false, // 文章标题前的图标是否显示，默认true
+    titleBadge: false, // 文章标题前的图标是否显示，默认true
     // titleBadgeIcons: [ // 文章标题前图标的地址，默认主题内置图标
     //   '图标地址1',
     //   '图标地址2'
@@ -143,7 +143,7 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
     blogger: {
       avatar: 'https://ushio.oss-cn-shanghai.aliyuncs.com/kana/avatar.jpg',
       name: '神流歌奈',
-      slogan: '一个平时无所事事，偶尔打打游戏写写文章的普通社畜。',
+      slogan: '一个平时沉迷二次元，偶尔打打游戏写写文章的普通社畜。',
     },
 
     // 社交图标 (显示于博主信息栏和页脚栏。内置图标：https://doc.神流歌奈.com/pages/a20ce8/#social)
