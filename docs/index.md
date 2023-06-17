@@ -11,19 +11,19 @@ features: # 可选的
   - title: 开发者
     details: 本知识库覆盖一个开发者必备的基础知识，包含 Git、计算机网络等通用基础知识。无论你擅长 Java、C 还是 Python，无论你是移动开发，前端开发还是后端开发，相信这些知识对你来说都很重要！
     link: /web/ # 可选
-    imgUrl: /img/other.png # 可选
+    imgUrl: https://ushio.oss-cn-shanghai.aliyuncs.com/kana/tools.png # 可选
   - title: 大前端
     details: 本知识库涵盖了前端的相关知识，包括移动端、web 端以及 RN 和 Flutter 等跨平台技术。
     link: /technology/
-    imgUrl: /img/web.png
+    imgUrl: https://ushio.oss-cn-shanghai.aliyuncs.com/kana/javascript-map.png
   - title: 服务器端
     details: 本知识库包含服务器端，也就是后端开发的相关知识，具体为 Java、Maven 和 Spring 等。后端开发需要的知识又多又杂，希望借助本知识库，能够重新学习和整理这些知识。
     link: /ui/
-    imgUrl: /img/ui.png
+    imgUrl: https://ushio.oss-cn-shanghai.aliyuncs.com/kana/service.png
   - title: 页面
     details: html(5)/css(3)，前端页面相关技术
     link: /ui/
-    imgUrl: /img/ui.png
+    imgUrl: https://ushio.oss-cn-shanghai.aliyuncs.com/kana/ui.png
 
 # 文章列表显示方式: detailed 默认，显示详细版文章列表（包括作者、分类、标签、摘要、分页等）| simple => 显示简约版文章列表（仅标题和日期）| none 不显示文章列表
 # postList: detailed
@@ -39,13 +39,13 @@ features: # 可选的
 ## 关于
 
 ### 📚Blog
-这是一个兼具博客文章、知识管理、文档查找的个人网站，主要内容是Web前端技术。如果你喜欢这个博客&主题欢迎到[GitHub](https://github.com/xugaoyi/vuepress-theme-vdoing)点个Star、获取源码，或者交换[友链](/friends/) ( •̀ ω •́ )✧
+这是一个兼具博客文章、知识管理、文档查找的个人网站，主要内容是Web前端技术。如果你喜欢这个博客&主题欢迎到[GitHub](https://github.com/神流歌奈/vuepress-theme-vdoing)点个Star、获取源码，或者交换[友链](/friends/) ( •̀ ω •́ )✧
 
 ### 🎨Theme
-本站主题是根据[VuePress](https://vuepress.vuejs.org/zh/)的默认主题修改而成。取名`Vdoing`(维度)，旨在轻松打造一个`结构化`与`碎片化`并存的个人在线知识库&博客，让你的知识海洋像一本本书一样清晰易读。配合多维索引，让每一个知识点都可以快速定位！ 更多[详情](https://github.com/xugaoyi/vuepress-theme-vdoing)。
+本站主题是根据[VuePress](https://vuepress.vuejs.org/zh/)的默认主题修改而成。取名`Vdoing`(维度)，旨在轻松打造一个`结构化`与`碎片化`并存的个人在线知识库&博客，让你的知识海洋像一本本书一样清晰易读。配合多维索引，让每一个知识点都可以快速定位！ 更多[详情](https://github.com/神流歌奈/vuepress-theme-vdoing)。
 
-<a href="https://github.com/xugaoyi/vuepress-theme-vdoing" target="_blank"><img src='https://img.shields.io/github/stars/xugaoyi/vuepress-theme-vdoing' alt='GitHub stars' class="no-zoom"></a>
-<a href="https://github.com/xugaoyi/vuepress-theme-vdoing" target="_blank"><img src='https://img.shields.io/github/forks/xugaoyi/vuepress-theme-vdoing' alt='GitHub forks' class="no-zoom"></a>
+<a href="https://github.com/神流歌奈/vuepress-theme-vdoing" target="_blank"><img src='https://img.shields.io/github/stars/神流歌奈/vuepress-theme-vdoing' alt='GitHub stars' class="no-zoom"></a>
+<a href="https://github.com/神流歌奈/vuepress-theme-vdoing" target="_blank"><img src='https://img.shields.io/github/forks/神流歌奈/vuepress-theme-vdoing' alt='GitHub forks' class="no-zoom"></a>
 
 </br>
 
@@ -85,6 +85,6 @@ features: # 可选的
 
 - **WeChat or QQ**: <a href="tencent://message/?uin=894072666&Site=&Menu=yesUrl" class='qq'>894072666</a>
 - **Email**: <a href="mailto:894072666@qq.com">894072666@qq.com</a>
-- **GitHub**: <https://github.com/xugaoyi>
+- **GitHub**: <https://github.com/神流歌奈>
 
 </br>  -->
