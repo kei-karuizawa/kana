@@ -46,7 +46,7 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
         ],
       },
       {
-        text: '技术',
+        text: '服务器端',
         link: '/technology/',
         items: [
           { text: '技术文档', link: '/pages/9a7ee40fc232253e/' },
