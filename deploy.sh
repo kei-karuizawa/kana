@@ -4,7 +4,7 @@
 set -e
 
 
-push_addr=`https://github.com/Otsuha/kana.git` # git提交地址，也可以手动设置，比如：push_addr=git@github.com:神流歌奈/vuepress-theme-vdoing.git
+push_addr=`git@github.com:Otsuha/kana.git` # git提交地址，也可以手动设置，比如：push_addr=git@github.com:神流歌奈/vuepress-theme-vdoing.git
 commit_info=`git describe --all --always --long`
 dist_path=docs/.vuepress/dist # 打包生成的文件夹路径
 push_branch=main # 推送的分支
