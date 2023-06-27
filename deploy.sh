@@ -14,12 +14,12 @@ else
   githubUrl=https://Otsuha:${GITHUB_TOKEN}@github.com/Otsuha/kana.git
   git config --global user.name "Otsuha"
   git config --global user.email "grass.ichika@gmail.com"
+  git config --global init.defaultBranch gh-pages
 fi
 git init
 git add -A
 git commit -m "${msg}"
-git config --global init.defaultBranch main
-git push -f $githubUrl main:gh-pages # 推送到github
+git push -f $githubUrl main:gh-pages --force # 推送到github
 
 # deploy to coding
 # echo 'www.xugaoyi.com\nxugaoyi.com' > CNAME  # 自定义域名
