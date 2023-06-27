@@ -11,7 +11,7 @@ if [ -z "$GITHUB_TOKEN" ]; then
   githubUrl=git@github.com:Otsuha/kana.git
 else
   msg='来自github action的自动部署'
-  githubUrl=https://Otsuha:${GITHUB_TOKEN}@github.com:Otsuha/kana.git
+  githubUrl=https://Otsuha:${{ secrets.ACCESS_TOKEN }}@github.com:Otsuha/kana.git
   git config --global user.name "Otsuha"
   git config --global user.email "grass.ichika@gmail.com"
 fi
