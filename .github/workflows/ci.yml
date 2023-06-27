@@ -35,8 +35,8 @@ jobs:
           user_name=`git log -1 --pretty=format:'%an'`
           user_email=`git log -1 --pretty=format:'%ae'`
           deploy_branch=gh-pages
-          yarn
-          yarn build
+          npm install
+          npm run build
           cd docs/.vuepress/dist
           git config --global init.defaultBranch $deploy_branch
           git init
@@ -46,8 +46,12 @@ jobs:
           git commit -m "auto deploy, $commit_info"
           remote_addr=`echo $remote_addr | awk -F'://' '{print $2}'`
           remote_addr=https://${user_name}:${{secrets.GITHUB_TOKEN}}@${remote_addr}
+          echo ${{secrets.GITHUB_TOKEN}}
+          echo ${remote_addr}
+          echo ${user_name}
+          echo ${user_email}
           git remote add origin ${remote_addr}
-          git push origin HEAD:$deploy_branch --force # 推送到github $deploy_branch分支
+          git push origin main:$deploy_branch --force # 推送到github $deploy_branch分支
         #run: npm install && npm run deploy
 
       # 只提交到github pages也可以使用github-pages-deploy-action，详见: https://github.com/JamesIves/github-pages-deploy-action
