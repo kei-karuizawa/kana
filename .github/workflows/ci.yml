@@ -44,7 +44,7 @@ jobs:
           git config user.email ${user_email}
           git add -A
           git commit -m "${commit_info}"
-          remote_addr=https://Otsuha:${GITHUB_TOKEN}@github.com/Otsuha/kana.git
+          remote_addr=https://github.com/Otsuha/kana.git
           git remote add origin ${remote_addr}
           git push origin HEAD:$deploy_branch --force
         #run: npm install && npm run deploy
