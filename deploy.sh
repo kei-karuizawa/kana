@@ -18,6 +18,7 @@ fi
 git init
 git add -A
 git commit -m "${msg}"
+git config --global init.defaultBranch main
 git push -f $githubUrl main:gh-pages # 推送到github
 
 # deploy to coding
