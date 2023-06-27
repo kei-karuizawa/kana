@@ -30,10 +30,10 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.ACCESS_TOKEN }} # toKen私密变量
         run: |
-          remote_addr=`git remote get-url --push origin`
-          commit_info=`git describe --all --always --long`
-          user_name=`git log -1 --pretty=format:'%an'`
-          user_email=`git log -1 --pretty=format:'%ae'`
+          remote_addr=https://github.com/Otsuha/kana.git
+          commit_info=deploy
+          user_name=Otsuha
+          user_email=grass.ichika@gmai.com
           deploy_branch=gh-pages
           npm install
           npm run build
@@ -43,15 +43,10 @@ jobs:
           git config user.name ${user_name}
           git config user.email ${user_email}
           git add -A
-          git commit -m "auto deploy, $commit_info"
-          remote_addr=`echo $remote_addr | awk -F'://' '{print $2}'`
-          remote_addr=https://${user_name}:${GITHUB_TOKEN}@${remote_addr}
-          echo ${GITHUB_TOKEN}
-          echo ${remote_addr}
-          echo ${user_name}
-          echo ${user_email}
+          git commit -m "${commit_info}"
+          remote_addr=https://Otsuha:${GITHUB_TOKEN}@github.com/Otsuha/kana.git
           git remote add origin ${remote_addr}
-          git push origin main:$deploy_branch --force # 推送到github $deploy_branch分支
+          git push origin HEAD:$deploy_branch --force
         #run: npm install && npm run deploy
 
       # 只提交到github pages也可以使用github-pages-deploy-action，详见: https://github.com/JamesIves/github-pages-deploy-action
