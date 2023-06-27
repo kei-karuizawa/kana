@@ -4,8 +4,7 @@
 set -e
 
 
-push_addr=git@github.com:Otsuha/kana.git # git提交地址，也可以手动设置，比如：push_addr=git@github.com:xugaoyi/vuepress-theme-vdoing.git
-commit_info=deploy
+push_addr=https://github.com/Otsuha/kana.git # git提交地址，也可以手动设置，比如：push_addr=git@github.com:xugaoyi/vuepress-theme-vdoing.git
 dist_path=docs/.vuepress/dist # 打包生成的文件夹路径
 push_branch=gh-pages # 推送的分支
 
@@ -17,7 +16,7 @@ cd $dist_path
 
 git init
 git add -A
-git commit -m "deploy, $commit_info"
+git commit -m "deploy"
 git push -f $push_addr HEAD:$push_branch
 
 cd -

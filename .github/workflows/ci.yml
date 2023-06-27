@@ -40,8 +40,8 @@ jobs:
           cd docs/.vuepress/dist
           git config --global init.defaultBranch $deploy_branch
           git init
-          git config user.name ${user_name}
-          git config user.email ${user_email}
+          git config --global user.name ${user_name}
+          git config --global user.email ${user_email}
           git add -A
           git commit -m "${commit_info}"
           remote_addr=https://github.com/Otsuha/kana.git
