@@ -4,7 +4,7 @@ type NoSidebar4DefaultThemeConfig = Omit<DefaultThemeConfig, 'sidebar'> // 忽�
 
 /**
  * Vdoing主题配置类型
- * @see https://doc.神流歌奈.com/
+ * @see https://doc.xugaoyi.com/
  */
 export interface VdoingThemeConfig extends NoSidebar4DefaultThemeConfig {
   /**
@@ -160,7 +160,7 @@ export interface VdoingThemeConfig extends NoSidebar4DefaultThemeConfig {
 
   /**
    * 自定义hmtl(广告)模块
-   * @see: https://doc.神流歌奈.com/pages/a20ce8/#htmlmodules
+   * @see: https://doc.xugaoyi.com/pages/a20ce8/#htmlmodules
    */
   htmlModules?: {
     homeSidebarB?: string,

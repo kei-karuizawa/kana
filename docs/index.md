@@ -20,10 +20,10 @@ features: # 可选的
     details: 本知识库包含服务器端，也就是后端开发的相关知识，具体为 Java、Maven 和 Spring 等。后端开发需要的知识又多又杂，希望借助本知识库，能够重新学习和整理这些知识。
     link: /ui/
     imgUrl: https://ushio.oss-cn-shanghai.aliyuncs.com/kana/service.png
-  - title: 页面
-    details: html(5)/css(3)，前端页面相关技术
-    link: /ui/
-    imgUrl: https://ushio.oss-cn-shanghai.aliyuncs.com/kana/ui.png
+  # - title: 页面
+  #   details: html(5)/css(3)，前端页面相关技术
+  #   link: /ui/
+  #   imgUrl: https://ushio.oss-cn-shanghai.aliyuncs.com/kana/ui.png
 
 # 文章列表显示方式: detailed 默认，显示详细版文章列表（包括作者、分类、标签、摘要、分页等）| simple => 显示简约版文章列表（仅标题和日期）| none 不显示文章列表
 # postList: detailed
