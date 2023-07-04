@@ -32,7 +32,7 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
       { text: '首页', link: '/' },
       {
         text: '开发者',
-        link: '/pages/1ad218/', //目录页链接，此处link是vdoing主题新增的配置项，有二级导航时，可以点击一级导航跳到目录页
+        link: '/pages/52230b/', //目录页链接，此处link是vdoing主题新增的配置项，有二级导航时，可以点击一级导航跳到目录页
         items: [
           { text: 'Git 教程', link: '/pages/1ad218/' },
         ],
@@ -47,12 +47,9 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
       },
       {
         text: '服务器端',
-        link: '/technology/',
+        link: '/pages/a78501/',
         items: [
-          { text: '技术文档', link: '/pages/9a7ee40fc232253e/' },
-          { text: 'GitHub技巧', link: '/pages/4c778760be26d8b3/' },
-          { text: 'Nodejs', link: '/pages/117708e0af7f0bd9/' },
-          { text: '博客搭建', link: '/pages/41f87d890d0a02af/' },
+          { text: 'Java 教程', link: '/pages/e3acc2/' },
         ],
       },
       // {
