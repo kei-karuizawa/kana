@@ -11,19 +11,19 @@ features: # 可选的
   - title: 开发者
     details: 本知识库覆盖一个开发者必备的基础知识，包含 Git、计算机网络等通用基础知识。无论你擅长 Java、C 还是 Python，无论你是移动开发，前端开发还是后端开发，相信这些知识对你来说都很重要！
     link: /web/ # 可选
-    imgUrl: https://ushio.oss-cn-shanghai.aliyuncs.com/kana/tools.png # 可选
+    imgUrl: https://nagiko.oss-cn-shanghai.aliyuncs.com/kana/tools.png # 可选
   - title: 大前端
     details: 本知识库涵盖了前端的相关知识，包括移动端、web 端以及 RN 和 Flutter 等跨平台技术。
     link: /technology/
-    imgUrl: https://ushio.oss-cn-shanghai.aliyuncs.com/kana/javascript-map.png
+    imgUrl: https://nagiko.oss-cn-shanghai.aliyuncs.com/kana/javascript-map.png
   - title: 服务器端
     details: 本知识库包含服务器端，也就是后端开发的相关知识，具体为 Java、Maven 和 Spring 等。后端开发需要的知识又多又杂，希望借助本知识库，能够重新学习和整理这些知识。
     link: /ui/
-    imgUrl: https://ushio.oss-cn-shanghai.aliyuncs.com/kana/service.png
+    imgUrl: https://nagiko.oss-cn-shanghai.aliyuncs.com/kana/service.png
   # - title: 页面
   #   details: html(5)/css(3)，前端页面相关技术
   #   link: /ui/
-  #   imgUrl: https://ushio.oss-cn-shanghai.aliyuncs.com/kana/ui.png
+  #   imgUrl: https://nagiko.oss-cn-shanghai.aliyuncs.com/kana/ui.png
 
 # 文章列表显示方式: detailed 默认，显示详细版文章列表（包括作者、分类、标签、摘要、分页等）| simple => 显示简约版文章列表（仅标题和日期）| none 不显示文章列表
 # postList: detailed
