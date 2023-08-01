@@ -29,7 +29,7 @@ const htmlModule: VdoingThemeConfig['htmlModules'] = {
       font-weight: bold;
       margin: 0 0 8px 0;
     ">神流歌奈的公众号</p>
-    <img src="https://ushio.oss-cn-shanghai.aliyuncs.com/kana/kana_qrcode.jpg"  style="width:100%;" />
+    <img src="https://nagiko.oss-cn-shanghai.aliyuncs.com/kana/kana_qrcode.jpg"  style="width:100%;" />
     🫴🏻 欢迎关注我的公众号！
     </p>
     </div>`,
