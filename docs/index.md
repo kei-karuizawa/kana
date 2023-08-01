@@ -10,7 +10,7 @@ tagline: 这是属于我的博客、属于我的知识文库，与大家分享
 features: # 可选的
   - title: 开发者
     details: 本知识库覆盖一个开发者必备的基础知识，包含 Git、计算机网络等通用基础知识。无论你擅长 Java、C 还是 Python，无论你是移动开发，前端开发还是后端开发，相信这些知识对你来说都很重要！
-    link: /web/ # 可选
+    link: /pages/52230b/ # 可选
     imgUrl: https://nagiko.oss-cn-shanghai.aliyuncs.com/kana/tools.png # 可选
   - title: 大前端
     details: 本知识库涵盖了前端的相关知识，包括移动端、web 端以及 RN 和 Flutter 等跨平台技术。
@@ -18,7 +18,7 @@ features: # 可选的
     imgUrl: https://nagiko.oss-cn-shanghai.aliyuncs.com/kana/javascript-map.png
   - title: 服务器端
     details: 本知识库包含服务器端，也就是后端开发的相关知识，具体为 Java、Maven 和 Spring 等。后端开发需要的知识又多又杂，希望借助本知识库，能够重新学习和整理这些知识。
-    link: /ui/
+    link: /pages/a78501/
     imgUrl: https://nagiko.oss-cn-shanghai.aliyuncs.com/kana/service.png
   # - title: 页面
   #   details: html(5)/css(3)，前端页面相关技术
