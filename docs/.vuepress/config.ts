@@ -9,7 +9,7 @@ import dayjs from 'dayjs'
 import baiduCode from './config/baiduCode' // 百度统计hm码
 import htmlModules from './config/htmlModules' // 自定义插入的html块
 
-const DOMAIN_NAME = 'kana.pub' // 域名 (不带https)
+const DOMAIN_NAME = 'kiriha.gitlab.io/kana' // 域名 (不带https)
 const WEB_SITE = `https://${DOMAIN_NAME}` // 网址
 
 export default defineConfig4CustomTheme<VdoingThemeConfig>({
@@ -84,7 +84,7 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
       },
     ],
     sidebarDepth: 2, // 侧边栏显示深度，默认1，最大2（显示到h3标题）
-    logo: 'https://nagiko.oss-cn-shanghai.aliyuncs.com/kana/logo.jpg', // 导航栏logo
+    logo: 'https://gitlab.com/kiriha/my-public-pictures/-/raw/main/kana/logo.jpg', // 导航栏logo
     repo: 'Otsuha/kana', // 导航栏右侧生成Github链接
     searchMaxSuggestions: 10, // 搜索结果显示最大数
     lastUpdated: '上次更新', // 开启更新时间，并配置前缀文字   string | boolean (取值为git提交时间)
@@ -138,7 +138,7 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
 
     // 博主信息 (显示在首页侧边栏)
     blogger: {
-      avatar: 'https://nagiko.oss-cn-shanghai.aliyuncs.com/kana/avatar.jpg',
+      avatar: 'https://gitlab.com/kiriha/my-public-pictures/-/raw/main/kana/avatar.jpg',
       name: '神流歌奈',
       slogan: '一个平时沉迷二次元，偶尔打打游戏写写文章的普通社畜。',
     },
@@ -155,7 +155,7 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
         {
           iconClass: 'icon-github',
           title: 'GitHub',
-          link: 'https://github.com/Otsuha',
+          link: 'https://github.com/kei-karuizawa',
         },
         // {
         //   iconClass: 'icon-erji',
@@ -176,7 +176,7 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
     extendFrontmatter: {
       author: {
         name: '神流歌奈',
-        link: 'https://github.com/Otsuha'
+        link: 'https://github.com/kei-karuizawa'
       }
     },
 
@@ -186,7 +186,7 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
 
   // 注入到页面<head>中的标签，格式[tagName, { attrName: attrValue }, innerHTML?]
   head: [
-    ['link', { rel: 'icon', href: 'https://nagiko.oss-cn-shanghai.aliyuncs.com/kana/favicon.jpg' }], //favicons，资源放在public文件夹
+    ['link', { rel: 'icon', href: 'https://gitlab.com/kiriha/my-public-pictures/-/raw/main/kana/favicon.jpg' }], //favicons，资源放在public文件夹
     [
       'meta',
       {
